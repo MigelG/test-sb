@@ -1,0 +1,26 @@
+.form {
+    background-color: var(--bg-search);
+    max-width: 631px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form__input {
+    width: 100%;
+    padding: 18px 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--tx-head)
+}
+
+.form__submit {
+    position: absolute;
+    right: 24px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

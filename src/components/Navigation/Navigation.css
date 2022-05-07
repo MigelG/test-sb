@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.nav .disabled {
+    pointer-events: none;
+    cursor: default;
+    color: #999;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--tx-main);
+}
+
+.nav__link:hover {
+    opacity: .6;
+}
+
+.nav__link_direction {
+    font-size: 24px;
+}
+
+.nav__pages {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.nav__pages .active {
+    color: var(--tx-nav);
+    font-weight: bold;
+}
+
+.nav__link_page {
+    padding: 5px;
+}

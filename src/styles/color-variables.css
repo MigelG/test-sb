@@ -1,0 +1,12 @@
+:root {
+    --bg-main: #ffffff;
+    --bg-head: #474955;
+    --bg-search: #5a5c66;
+
+    --tx-main: #474955;
+    --tx-head: #ffffff;
+    --tx-search: #b2b7bf;
+    --tx-nav: #7ebc3c;
+
+    --border: #e3e6ec;
+}

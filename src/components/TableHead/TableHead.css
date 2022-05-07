@@ -1,0 +1,7 @@
+.table__head {
+    background-color: var(--bg-head);
+    color: var(--tx-head);
+    font-size: 14px;
+    font-weight: 600;
+    height: 54px;
+}
