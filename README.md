@@ -1,6 +1,7 @@
 # Test SB
-Это приложение для просмотра ста последних новостей с сайта [Hacker News](https://news.ycombinator.com/news).  
-[Ссылка на gh-pages](https://migelg.github.io/hacker-news)
+Тестовое задание
+  
+[Ссылка на gh-pages](https://migelg.github.io/test-sb/)
 ## Функционал
 * Приложение отображает таблицу с постами, полученными из открытого API
 * Поиск по колонкам "Заголовок" и "Описание"
