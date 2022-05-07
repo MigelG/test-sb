@@ -6,7 +6,7 @@ import { setPosts } from '../../store/postSlice'
 import SearchBar from '../SearchBar/SearchBar'
 import './App.css'
 import Navigation from '../Navigation/Navigation'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 
 const App = () => {
   const dispatch = useDispatch()
@@ -23,6 +23,7 @@ const App = () => {
     <div className='content'>
       <SearchBar />
       <Routes>
+        <Route path='/' element={<Navigate to='/1' />} />
         <Route path='/:pageId' element={<Table />} />
       </Routes>
       <Navigation />
