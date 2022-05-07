@@ -12,6 +12,6 @@
 * Redux Toolkit
 * Роутинг React Router v6
 ## Установка
-1. Клонировать репозиторий `git clone git@github.com:MigelG/hacker-news.git`
+1. Клонировать репозиторий `git clone git@github.com:MigelG/test-sb.git`
 2. Установить зависимости `npm install`
 3. Запустить `npm run start`
